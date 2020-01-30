@@ -93,6 +93,20 @@ menu:
   - path: /updates/
     translation_key: menu.updates
 
+footer_menu:
+  - path: mailto:test@example.com
+    translation_key: menu.contact_us
+  - path: https://twitter.com/MyTwitterAccount
+    translation_key: general.twitter
+  - path: https://facebook.com/MyFacebookAccount
+    translation_key: general.facebook
+  - path: faq
+    translation_key: menu.faq
+  # Internal paths do not need a preceding slash,
+  # but it is fine to have one.
+  - path: /about/cookies-and-privacy
+    translation_key: menu.cookies
+
 # This makes sure that all pages have a language.
 defaults:
   -
@@ -105,7 +119,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@0.10.0
+remote_theme: open-sdg/open-sdg
 
 # Apply any custom Javascript.
 custom_js:
