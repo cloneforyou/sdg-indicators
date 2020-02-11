@@ -119,7 +119,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@v1-tabs-temp
+remote_theme: open-sdg/open-sdg@v1-tabs
 
 # Apply any custom Javascript.
 custom_js:
