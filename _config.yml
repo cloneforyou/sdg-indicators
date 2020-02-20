@@ -129,7 +129,6 @@ custom_js:
 custom_css:
   - /assets/css/custom.css
 
-
 # Mapping
 map_options:
   tileURL: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
@@ -172,3 +171,7 @@ map_layers:
     # link: https://hub.arcgis.com/datasets/b7507e654334481e8e0787f42c9028c1_3
 
 survey_url: https://www.surveymonkey.co.uk/r/XFJZGVL
+
+homepage_introduction_banner:
+    title: 17 Goals to transform our world
+    description: The Sustainable Development Goals are a call for action by all countries – poor, rich and middle-income – to promote prosperity while protecting the planet. They recognize that ending poverty must go hand-in-hand with strategies that build economic growth and address a range of social needs including education, health, social protection, and job opportunities, while tackling climate change and environmental protection.
